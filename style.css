@@ -370,6 +370,7 @@ main article .message .message-container #submit .submit:hover{
 
 /* CONTACT US PAGE*/
 footer{
+    background-color: #fff;
     height: 50vh;
     width: 100%;
 }
