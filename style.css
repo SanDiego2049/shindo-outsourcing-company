@@ -156,7 +156,7 @@ main article #company .company-container .block-container .img-container3 .stair
 
 main article #company .company-container .block-container .textbox{
     width: 35vw;
-    color: white;
+    color: #1b1b1b;
 }
 
 main article .title{
@@ -184,6 +184,7 @@ main article #company .company-container .img-container4 .values{
 
 /* SERVICES PAGE */
 main article #services{
+    background-color: #fff;
     height: 90vh;
     width: 100%;
 }
@@ -241,6 +242,7 @@ main article #technologies .img-container6 .tech{
 
 /* CLIENTS PAGE*/
 main article #clients{
+    background-color: #fff;
     height: 100vh;
     width: 100%;
 }
@@ -323,6 +325,7 @@ main article #careers .careers-container #submit .submit:hover{
 }
 
 main article .message{
+    background-color: #fff;
     height: 45vh;
 }
 
