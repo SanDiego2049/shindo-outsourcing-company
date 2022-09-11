@@ -184,7 +184,7 @@ main article #company .company-container .img-container4 .values{
 
 /* SERVICES PAGE */
 main article #services{
-    height: 92vh;
+    height: 95vh;
     width: 100%;
 }
 
@@ -401,7 +401,7 @@ footer .footer-container .col .small{
 footer .footer-container .col .normal{
     font-weight: 700;
     color: #1b1b1b;
-    font-size: large;
+    font-size: medium;
     padding-bottom: 7px;
     white-space: nowrap;
 }
