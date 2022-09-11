@@ -1,0 +1,164 @@
+@media screen and (max-width: 1200px){
+    /* LANDING PAGE */
+    header nav .img-container .logo{
+        height: 80%; 
+    }
+
+    header nav ul{
+        display: none;
+    }
+
+    header nav ul li{
+        display: none;
+    }
+
+    header #hamburger{
+        position: relative;
+        display: block;
+        width: 6vh;
+        cursor: pointer;
+        background: none;
+        appearance: none; 
+        border: none; 
+        z-index: 2; 
+        white-space: nowrap;
+    } 
+
+    header #mobile{
+        position: fixed;
+        top: 0;
+        right: -44.5%;
+        width: 40%;
+        min-height: 100vh;
+        display: block;
+        background-color: #1b1b1b;
+        padding-top: 12vh;
+        z-index: 1;
+    }
+
+    /* COMPANY PAGE */
+    main article #company .company-container .block-container{
+        flex-direction: column;
+        margin: 0 20px;
+        height: 90vh;
+    }
+
+    main article #company .company-container .block-container .img-container3 .stairwell{
+        width: 80%;
+        display: flex;
+        margin: auto;
+    }
+
+    main article #company .company-container .block-container .textbox{
+        width: 80vw;
+    }
+
+    main article .title{
+        font-size: 1.3rem;
+    }
+
+    main article #company .company-container .img-container4 .values{
+        width: 80vw;
+    }
+
+    /* SERVICES PAGE */
+    main article #services{
+        height: 130vh;
+    }
+
+    main article #services .services-container{
+        flex-direction: column;
+    }
+
+    main article #services .services-container .col1{
+        padding-top: 3%;
+        width: 100%;
+    }
+    
+    main article #services .services-container .col2{
+        width: 100%;
+        padding: 0 40px;
+    }
+    
+    main article #services .services-container .title2{
+        font-size: 1.1rem;
+    }
+    
+    main article #services .services-container .col3{
+        width: 100%;
+        padding: 0 40px;
+    }
+
+    /* CLIENTS PAGE*/
+    main article #clients .clients-container .block-container{
+        flex-direction: column;
+        height: 45vh;
+    }
+
+    main article #clients .clients-container .block-container .col1{
+        width: 100%;
+    }
+    
+    main article #clients .clients-container .block-container .col2{
+        width: 100%;
+        padding: 0 40px;
+    }
+
+    main article #clients .clients-container .img-container7 .members{
+        max-width: 45vh;
+    }
+    
+    /* CAREERS PAGE*/
+    main article #careers .careers-container .col .text{
+        position: relative;
+        bottom: 30px;
+    }
+    
+    main article #careers .careers-container #submit .form{
+        position: relative;
+        bottom: 50px;
+        right: 10px;
+    }
+    
+    main article #careers .careers-container #submit .submit{
+        position: relative;
+        bottom: 15px;
+    }
+
+    main article .message .message-container #submit .form{
+        position: relative;
+        bottom: 20px;
+    }
+
+    /* CONTACT US PAGE*/
+    footer .footer-container{
+        flex-direction: column;        
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    footer .footer-container .col{
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 800px){
+    /* LANDING PAGE */
+    header #mobile{
+        position: fixed;
+        top: 0;
+        right: -105.7%;
+        width: 101.5%;
+        min-height: 100vh;
+        display: block;
+        background-color: #1b1b1b;
+        padding-top: 12vh;
+        z-index: 1;
+    }
+
+    header #mobile a{
+        width: 80%;
+    }
+}
